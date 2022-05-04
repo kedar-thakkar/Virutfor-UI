@@ -1,0 +1,100 @@
+{
+  "events": [
+    {
+      "name": "Finance For All",
+      "orgId": "virtufor",
+      "startDate": "2020-11-30T09:16:25.628Z",
+      "endDate": "2020-11-30T09:16:25.628Z",
+      "tables": [
+        {
+          "id": 1,
+          "name": "Finance Management",
+          "isHosted": "string",
+          "maxNoOfparticipants": 10,
+          "isPrivate": false,
+          "meetingUrl": "https://meet.virtufor.ch/event1-ffa",
+          "host": {
+            "username": "ashish",
+            "firstName": "Ashish",
+            "lastName": "Jindal",
+            "email": "rite2aj@gmail.com",
+            "orgName": "VirtuFor"
+          },
+          "participants": [
+            {
+              "firstName": "helllo",
+              "lastName": "ssda"
+            }
+          ]
+        }
+      ],
+      "invitees": [
+        {
+          "username": "raghu",
+          "firstName": "Raghu",
+          "lastName": "",
+          "email": "raghu@virtufor.ch"
+        }
+      ],
+      "id": "event1"
+    },
+    {
+      "name": "Finance For All",
+      "orgId": "virtufor",
+      "startDate": "2020-11-30T09:16:25.628Z",
+      "endDate": "2020-11-30T09:16:25.628Z",
+      "tables": [
+        {
+          "id": 1,
+          "name": "Sustainable Finance",
+          "isHosted": "string",
+          "maxNoOfparticipants": 10,
+          "isPrivate": false,
+          "meetingUrl": "https://meet.virtufor.ch/event1-ffa",
+          "host": {
+            "username": "ashish",
+            "firstName": "Ashish",
+            "lastName": "Jindal",
+            "email": "rite2aj@gmail.com",
+            "orgName": "VirtuFor"
+          },
+          "participants": [
+            {
+              "firstName": "bitttu",
+              "lastName": "bossss"
+            },
+            {
+              "firstName": "kedar",
+              "lastName": "thakkkar"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Market Planning",
+          "isHosted": "string",
+          "isPrivate": false,
+          "meetingUrl": "https://meet.virtufor.ch/event1-mp",
+          "maxNoOfparticipants": 15,
+          "host": {
+            "username": "ashish",
+            "firstName": "Mark",
+            "lastName": "Harris",
+            "email": "mharis@gmail.com",
+            "orgName": "VirtuFor"
+          },
+          "participants": []
+        }
+      ],
+      "invitees": [
+        {
+          "username": "raghu",
+          "firstName": "Raghu",
+          "lastName": "",
+          "email": "raghu@virtufor.ch"
+        }
+      ],
+      "id": "event2"
+    }
+  ]
+}

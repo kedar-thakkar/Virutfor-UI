@@ -1,0 +1,11 @@
+steps:
+
+  - name: 'gcr.io/cloud-builders/docker'
+    args: [ 'build', '-t', 'eu.gcr.io/original-circle-288913/virtufor-jitsi-frontend:latest', '.' ]
+
+  - name: 'gcr.io/cloud-builders/docker'
+    args: [ 'build', '-t', 'eu.gcr.io/original-circle-288913/virtufor-json-server:latest', '-f','Dockerfile-db','.' ]    
+
+images:
+  - 'eu.gcr.io/original-circle-288913/virtufor-jitsi-frontend:latest'
+  - 'eu.gcr.io/original-circle-288913/virtufor-json-server:latest'

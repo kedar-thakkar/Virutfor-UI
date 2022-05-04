@@ -1,0 +1,113 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */ 
+
+.d-none{
+  display: none!important;
+}
+
+.remote-video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.local-video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.custom-modal{ 
+  position: fixed;
+  pointer-events: none;
+  opacity: 0;
+  transition: .3s;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  margin: auto;
+  background-color: white;
+  min-width: 500px;
+  max-width: 90%;
+  min-height: 600px; 
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px #dddddd, 0 0 10px 10px #dddddd;
+  display: flex; 
+  padding: 20px 0;
+  justify-content: center;
+}
+
+.custom-modal.active{
+  pointer-events: unset;
+  opacity: 1;
+}
+
+.participants-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+
+.custom-modal-content{
+  width: 90%;
+}
+
+.custom-modal-body{
+  margin-top: 30px;
+}
+
+.custom-modal-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.meeting-icons{
+  width: 100%;
+  min-width: 57px;
+}
+
+.meeting-icons1{
+  width: 46%;
+  min-width: 36px;
+}
